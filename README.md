@@ -12,6 +12,10 @@
 
 # Incentivized PoP Node Step by Step Guide
 
+## Official Links
+| [X](https://x.com/pipenetwork) | [Discord](https://discord.gg/NYQ4K6Nkkm)     |
+| :-------- | :------- |
+
 ## System Requirements
 | Ram | cpu     | disk                      |
 | :-------- | :------- | :-------------------------------- |
@@ -138,4 +142,28 @@ Important: Save your Recovery Phrase
 ## Link Wallet
 ```console
 /opt/dcdn/pipe-tool link-wallet --node-registry-url="https://rpc.pipedev.network"
+```
+
+#
+
+* Save your `~/.permissionless` directory which contains your keys
+* We will need to update our node with each release, I will announce it in twitter or update this repo
+
+#
+
+## Optional: Delete Node
+```
+sudo systemctl stop dcdnd.service
+```
+```
+sudo systemctl disable dcdnd.service
+```
+```
+sudo rm /etc/systemd/system/dcdnd.service
+```
+```
+sudo systemctl daemon-reload
+```
+```
+rm -r /opt/dcdn
 ```

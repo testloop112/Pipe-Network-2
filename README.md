@@ -144,7 +144,11 @@ Important: Save your Recovery Phrase
 /opt/dcdn/pipe-tool link-wallet --node-registry-url="https://rpc.pipedev.network"
 ```
 
-#
+##import wallet
+```your public key
+/opt/dcdn/pipe-tool link-wallet --node-registry-url="https://rpc.pipedev.network" --public-key="your public key"
+```your public key
+
 
 * Save your `~/.permissionless` directory which contains your keys
 * We will need to update our node with each release, I will announce it in twitter or update this repo
@@ -161,6 +165,8 @@ sudo systemctl disable dcdnd.service
 ```
 sudo rm /etc/systemd/system/dcdnd.service
 ```
+
+
 ```
 sudo systemctl daemon-reload
 ```

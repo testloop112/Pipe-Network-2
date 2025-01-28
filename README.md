@@ -145,9 +145,9 @@ Important: Save your Recovery Phrase
 ```
 
 ##import wallet
-```your public key
+``` 
 /opt/dcdn/pipe-tool link-wallet --node-registry-url="https://rpc.pipedev.network" --public-key="your public key"
-```your public key
+``` 
 
 
 * Save your `~/.permissionless` directory which contains your keys

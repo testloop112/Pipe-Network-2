@@ -148,7 +148,9 @@ Important: Save your Recovery Phrase
 ``` 
 /opt/dcdn/pipe-tool link-wallet --node-registry-url="https://rpc.pipedev.network" --public-key="your public key"
 ``` 
-
+*View Public Key
+*To view your wallet’s public address, use the command:
+pipe-tool show-public-key
 
 * Save your `~/.permissionless` directory which contains your keys
 * We will need to update our node with each release, I will announce it in twitter or update this repo

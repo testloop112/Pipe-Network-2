@@ -153,6 +153,18 @@ Important: Save your Recovery Phrase
 ```
 /opt/dcdn/pipe-tool show-public-key
 ```
+* View Linked Wallet
+* To view the wallet linked to your account, execute the following command:
+```
+pipe-tool link-wallet --show-linked --node-registry-url="https://rpc.pipedev.network"
+```
+
+*View Private Key
+*To view your wallet’s private address, run the following command:
+```
+pipe-tool show-private-key
+```
+
 * Save your `~/.permissionless` directory which contains your keys
 * We will need to update our node with each release, I will announce it in twitter or update this repo
 

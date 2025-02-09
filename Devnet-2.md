@@ -119,6 +119,11 @@ You'll get following details representing your node's reputation
 * Egress Score (30%): Based on data served in past 24h
 * Historical Score (30%): Based on consistent reporting
 
+* Point review
+```
+cd $HOME && cd pipe
+./pop --points-route
+```
 ### 8. Backup Files
 Recommened to backup `node_info.json` in `/root/pipe`. It is linked to the IP address that registered the PoP node. It is no recoverable if lost. 
 * `node_info.json`: Node configuration

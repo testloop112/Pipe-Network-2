@@ -4,7 +4,7 @@ Pipe Network DevNet 2 will serve as a proving ground for the testnet. After 40 d
 By running a Node, Users will earn Reputation and Scores during this phase to prove their contributions to the network.
 * You must be whitelisted and receive email with instructions to qualify for node's rewards.
 * If you are a new user, Signup [here](https://docs.google.com/forms/d/e/1FAIpQLScbxN1qlstpbyU55K5I1UPufzfwshcv7uRJG6aLZQDk52ma0w/viewform) and wait until you receive an email.
-
+ cv
 ## System Requirements
 * Linux
 * Minimum 4GB RAM (configurable), more the better for higher rewards
